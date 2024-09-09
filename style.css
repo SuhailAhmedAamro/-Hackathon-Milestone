@@ -1,0 +1,190 @@
+body {
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+background-color: rgb(253, 253, 253);
+}
+
+.container {
+width: 90%;
+max-width: 900px;
+margin: 20px auto;
+background-color: #1000f067;
+padding: 30px;
+box-shadow: 25px  25px rgba(124, 118, 118, 0.932);
+border-radius: 10px;
+border-top: 5px dotted #fa4a05;
+}
+
+header {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.profile-picture {
+width: 140px;
+height: 140px;
+border-radius: 40%;
+border: 4px solid #faf6f6;
+float: right;
+
+}
+
+
+h1 {
+margin: 0;
+font-size: 2.2em;
+color: #fcfcfc;
+}
+
+h3 {
+margin: 5px 0;
+font-size: 1.5em;
+color: #ffffff;
+}
+
+section {
+margin-bottom: 25px;
+padding: 20px;
+border: 3px solid #f6f7f7;
+border-radius: 70px 0px 70px;
+background-color: #f6f7f4;
+}
+
+h2 {
+color: #07e738;
+border-bottom: 2px dotted #4203f0;
+padding-bottom: 10px;
+font-size: 1.5em;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+background-color: #d9dee0;
+margin-bottom: 8px;
+padding: 12px;
+border-radius: 5px;
+color: #0ab5f8;
+}
+
+button {
+display: block;
+width: 100%;
+padding: 12px;
+background-color: #1d72b8;
+color: #ffffff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1.1em;
+font-weight: bold;
+}
+
+button:hover {
+background-color: #003052;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+.profile-picture {
+width: 100px;
+height: 100px;
+}
+
+h1 {
+font-size: 1.8em;
+}
+
+h3 {
+font-size: 1.3em;
+}
+
+section {
+padding: 15px;
+}
+
+button {
+font-size: 1em;
+}
+}
+
+@media screen and (max-width: 480px) {
+.container {
+width: 95%;
+padding: 20px;
+}
+
+h1 {
+font-size: 1.5em;
+}
+
+h3 {
+font-size: 1.2em;
+}
+
+.profile-picture {
+width: 80px;
+height: 80px;
+}
+
+button {
+padding: 10px;
+font-size: 0.9em;
+}
+
+section {
+padding: 10px;
+}
+}
+
+.social-icons {
+text-align: center; /* Center align the social icons */
+margin-top: 30px;
+}
+
+.social-icon {
+margin: 0 15px;
+color: #1d72b8;
+font-size: 2em;
+transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+color: #003052;
+}
+
+/* Media Queries for smaller devices */
+@media screen and (max-width: 768px) {
+.social-icons {
+margin-top: 15px; /* Reduced margin for mobile */
+}
+.social-icon {
+font-size: 1.8em;
+}
+}
+
+@media screen and (max-width: 480px) {
+.social-icons {
+margin-top: 10px;
+}
+.social-icon {
+font-size: 1.6em;
+}
+}
+
+p#one {
+text-align: center;
+font-size: 1em;
+color: #333; /* Optional: You can customize the color */
+margin-top: 20px;
+}
+
+p#one:hover {
+color: #1d72b8; /* Color changes on hover */
+font-weight: bold; /* Makes the text bold on hover */
+transition: color 0.3s ease, font-weight 0.3s ease; /* Smooth transition */
+}
